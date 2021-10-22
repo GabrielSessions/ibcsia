@@ -1,0 +1,63 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.incomplete {
+    color: red;
+    font-weight: bold;
+}
+
+.background {
+    background: linear-gradient(-40deg, #ffffff, #6699ff);
+}
+
+h1.boxed {
+    border: 3px solid black;
+    width: 500px;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+h1,
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.button {
+    background-color: black;
+    border: 1px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: gray;
+}
