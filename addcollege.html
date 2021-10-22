@@ -1,0 +1,130 @@
+<head>
+    <link href="./css/collegeadd.css" type="text/css" rel="stylesheet"></link>
+
+    <title>
+        Add a College
+    </title>
+
+</head>
+
+<div class="navbar">
+    <a href="./index.html"><button type = "button" class = "button">Home</button> </a>
+    <a href="./addcollege.html"><button type = "button" class = "button">Add a College</button></a>
+
+    <a href="https://apply.commonapp.org/login"><button type = "button"class = "button">Link to CommonApp</button></a>
+</div>
+</div>
+<br><br>
+
+<body class="background">
+    <div id="title">
+        <h1 id="head" class="boxed">Add a College</h1>
+        <br>
+    </div>
+
+
+
+    <div id="search">
+        <h2 class="va">Search for a Virginia College</h2>
+        <br>
+    </div>
+
+
+    <center>
+        <div id="va-college-search">
+
+            <form id="frm1">
+                Enter the name of a Virginia College or University: <input type="text" name="name" value=""><br>
+                <br>
+                <input type="submit" value="Search">
+            </form>
+
+
+        </div>
+        <div id="search-results">
+
+            <br>
+        </div>
+    </center>
+    <br>
+
+
+    <div id="manual">
+        <h2 class="manual">Add a college manually</h2>
+    </div>
+
+    <div id="addform">
+        <center>
+            <form action="index.html">
+                <label for="cname">College Name*:</label><br>
+                <input type="text" id="cname" name="cname" required><br>
+                <br>
+
+                <label for="eddate">Early Decision Deadline:</label><br>
+                <input type="date" id="eddate" name="eddate">
+                <br>
+                <br>
+                <label for="eadate">Early Action Deadline:</label><br>
+                <input type="date" id="eadate" name="eadate">
+                <br>
+                <br>
+                <label for="rddate">Regular Decision Deadline*:</label><br>
+                <input type="date" id="rddate" name="rddate" required>
+
+                <br>
+                <h5>Add Supplementary Essays (if applicable)
+                    <h5>
+                        <label for="essay1">Essay 1:</label><br>
+                        <input type="text" id="essay1" name="essay1"> <br>
+                        <label for="essay2">Essay 2:</label><br>
+                        <input type="text" id="essay2" name="essay2"> <br>
+                        <label for="essay3">Essay 3:</label><br>
+                        <input type="text" id="essay3" name="essay3"> <br>
+                        <label for="essay4">Essay 4:</label><br>
+                        <input type="text" id="essay4" name="essay4"> <br>
+
+
+                        <h5>Counselor Recommendation Required?</h5>
+                        <input type="radio" id="yes" name="cr" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="cr" value="no" checked="checked">
+                        <label for="no">No</label>
+
+                        <h5>Number of Teacher Recommendations</h5>
+                        <input type="radio" id="zero" name="tr" value="zero" checked="checked">
+                        <label for="zero">0</label>
+                        <input type="radio" id="one" name="tr" value="one">
+                        <label for="one">1</label>
+                        <input type="radio" id="two" name="tr" value="two">
+                        <label for="two">2</label>
+                        <input type="radio" id="three" name="tr" value="three">
+                        <label for="three">3 or more</label>
+
+                        <h5>If CommonApp, is the personal essay or course/grades section required?</h5>
+                        <input type="radio" id="neither" name="commonapp" value="neither" checked="checked">
+                        <label for="neither" selected>Neither is required</label><br>
+                        <input type="radio" id="pe" name="commonapp" value="pe">
+                        <label for="pe">Personal essay is required</label><br>
+                        <input type="radio" id="cg" name="commonapp" value="cg">
+                        <label for="cg">Course/Grades is required</label><br>
+                        <input type="radio" id="both" name="commonapp" value="both">
+                        <label for="both">Both are required</label><br>
+
+                        <br>
+                        <input type="submit" value="Submit request" />
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+            </form>
+        </center>
+    </div>
+    <script src="./js/cookies.js"></script>
+
+    <script src="./js/college.js"></script>
+    <script src="./js/collegelist.js"></script>
+
+    <script src="./js/search.js"></script>
+
+</body>
